@@ -80,12 +80,4 @@ Follow the module’s internal instructions (if any)
 
 Run training, evaluation, or exploration scripts as needed
 
-📄 Future Improvements
 
-Add detailed documentation per module
-
-Provide example commands for training & evaluation
-
-Add environment setup scripts
-
-Include architecture diagrams
