@@ -1,83 +1,36 @@
-📘 Training Program 2025 – Repository
+Training Program 2025
+This repository consolidates the models, evaluation pipelines, datasets, and development environments used across the Training Program 2025. The structure reflects the full workflow lifecycle: model development, evaluation, and external code integration.
 
-This repository contains the materials, models, evaluation pipelines, and supporting code used throughout the Training Program 2025.
-It is organized into three main modules, each representing a different stage of the workflow: model development, evaluation, and external code integration.
+Repository Structure
+1. demo_2/ — Model Development
+Primary workspace for building, training, and iterating on the core model.
 
-📂 Repository Structure
-1️⃣ demo_2/ – Model Development
+Includes: - Main model implementation - .devcontainer for reproducible development - Training and testing scripts - Supporting resources for experimentation
 
-This folder contains:
+This module functions as the foundation for downstream evaluation workflows.
 
-The main model implementation developed during the training program
+2. demo_4_5/ — Evaluation and International Data
+Module for running evaluation pipelines and analyzing cross-country datasets.
 
-A .devcontainer setup for reproducible development environments
+Includes: - Evaluation notebooks and scripts aligned with demo_2 - Data contributions from participating countries - .devcontainer for consistent execution environments - Metrics, reporting, and model comparison utilities
 
-Supporting scripts and resources used to train and test the model
+This module provides the benchmarking and analytics capabilities for the program.
 
-This is the foundational module that the rest of the project builds on.
+3. g42/ — External Model Code
+Dedicated environment for integrating and testing code originating from G42.
 
-2️⃣ demo_4_5/ – Evaluation & International Data
+Includes: - External model components - Experimental algorithms or reference implementations - .devcontainer for isolated and reproducible execution
 
-This module includes:
+This module serves as a comparative baseline and complementary model workspace.
 
-Evaluation pipelines and notebooks related to demo_2
+Dev Containers
+Each major module (demo_2, demo_4_5, g42) includes its own .devcontainer to ensure: - Consistent and reproducible development environments - Dependency isolation - Turnkey setup through VS Code DevContainers
 
-Data shared by participating countries
+Purpose
+The repository is designed to centralize: - Model development workflows - Evaluation pipelines - Shared datasets - External model integrations - Standardized development environments
 
-A .devcontainer folder for consistent environment setup
-
-Scripts used for metrics, reporting, and model comparisons
-
-This folder represents the analysis and evaluation stage of the training program.
-
-3️⃣ g42/ – External Model Code
-
-This folder contains:
-
-Code originating from G42
-
-Likely includes model components, experiments, or algorithmic contributions
-
-A .devcontainer environment for running the code consistently
-
-This module may serve as a reference implementation or additional model used during the program.
-
-🛠️ Dev Containers
-
-Each major folder (demo_2, demo_4_5, g42) includes its own .devcontainer directory, providing:
-
-Consistent development environments
-
-Dependency isolation
-
-Ready-to-use VS Code DevContainer configurations
-
-This ensures that all contributors can run and test the code in identical environments.
-
-🎯 Purpose of This Repository
-
-The goal of this repository is to centralize:
-
-Model implementations
-
-Evaluation workflows
-
-Shared datasets
-
-External reference code
-
-Reproducible development environments
-
-It supports training, experimentation, and collaboration across teams.
-
-🔧 How to Use This Repository
-
-Navigate to the module you want to work on (demo_2, demo_4_5, or g42)
-
-Open it in a DevContainer-enabled environment (VS Code recommended)
-
-Follow the module’s internal instructions (if any)
-
-Run training, evaluation, or exploration scripts as needed
-
-
+Getting Started
+Navigate to the module you plan to work with (demo_2, demo_4_5, or g42).
+Open the module inside a DevContainer-enabled environment (VS Code recommended).
+Review and follow any module-specific guidance.
+Execute training, evaluation, or exploratory workflows as required.
