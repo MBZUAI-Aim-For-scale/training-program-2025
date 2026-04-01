@@ -9,14 +9,6 @@ This demo was developed as a **interactive online platform** in collaboration wi
 
 ---
 
-## Purpose
-
-The purpose of this demo is to help users understand **how forecast quality is measured** and how model performance can vary depending on the chosen metric, variable, forecast lead time, and ground-truth dataset.
-
-Instead of only producing forecasts, this demo teaches users how to **interpret verification results** and compare the strengths and weaknesses of different AI and operational weather models.
-
----
-
 ## What This Demo Does
 
 The demo provides an **interactive web-based evaluation tool** where users can configure a forecast comparison and instantly visualize the results.
@@ -56,14 +48,6 @@ By completing this demo, participants should be able to:
 - recognize how the choice of **ground-truth dataset** can influence evaluation results
 
 - generate and analyze plots and tables to compare AI models with operational forecasting systems
-
----
-
-## Platform and Medium
-
-- **Medium:** Interactive online platform / website
-- **Implementation context:** Google Colab with **Rhiza**
-- **Presentation platform:** **Genevieve website**
 
 ---
 
@@ -209,31 +193,14 @@ For example, precipitation verification may look different depending on whether 
 
 ---
 
-## What I Did
-
-For **Demo 3**, I worked on documenting and presenting an **interactive forecast verification workflow** delivered through the **Genevieve website** in collaboration with **Rhiza**.
-
-This demo was designed to move beyond model execution and focus on **evaluation and comparison**. The platform allows users to benchmark forecasting models in a hands-on way by selecting metrics, variables, models, regions, and ground-truth datasets, then generating plots and scorecards for interpretation.
-
-The main contribution of this demo is creating a learning experience where participants do not just see results, but also understand **how those results are measured and interpreted**.
-
----
 
 ## Technologies and Tools
 
-- Google Colab
 - Interactive online platform / website
-- Genevieve website
 - Forecast verification metrics
 - Comparative visualizations and scorecards
 
----
 
-## Why This Demo Is Important
-
-This demo is important because evaluating a forecast model is just as critical as running it.
-
-A model may perform well under one metric but not another. It may also perform differently depending on the variable, lead time, or ground-truth dataset. By giving users the ability to interact with these dimensions directly, the demo helps build a deeper understanding of **forecast skill**, **model benchmarking**, and **scientific interpretation**.
 
 ---
 
